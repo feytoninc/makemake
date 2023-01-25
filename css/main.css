@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;400;600;900&display=swap');
+
+html {
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lexend";
+    width: 100%;
+    box-sizing: border-box;
+    background: #1c92d2;
+    background-size: cover;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
+    /* Chrome 10-25, Safari 5.1-6 */
+
+    background: linear-gradient(to right, #323435f3, #0c1e27d0, #004466e5), url("./pngwing.com.png") no-repeat center center fixed
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h2 {
+    font-size: 3rem;
+    text-shadow: 1px 1px 5px #000;
+    margin: 0;
+    font-weight: bold;
+}
+
+p {
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px #000;
+    color: #6ba4c0;
+    font-weight: bold;
+    width: 100%;
+}
+
+.countdown {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(3, 30, 43, 0.699);
+    background-image: linear-gradient(to right top, #6b696a, #675f65, #5f5662, #554d61, #474660, #404b68, #365070, #265676, #206984, #227c8f, #308f97, #47a19b);
+}
+
+ul li {
+    padding: 1rem .5rem;
+    margin: 0;
+    background-color: #001f2f;
+    border-radius: 10px;
+}
+
+ul li span {
+    display: block;
+    font-size: 2rem;
+}
+
+
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.button-group a {
+    padding: .5rem 2rem;
+    font-family: "Lexend";
+    margin: 0px 10px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s all;
+}
+
+.btn.btn-primary {
+    background-color: rgb(0, 29, 61);
+    color: white;
+    border: 1px solid transparent;
+}
+
+.btn.btn-primary:hover {
+    border: 1px solid white;
+    background-color: transparent;
+    box-sizing: border-box;
+    transition: .3s all;
+}
+
+.btn.btn-outline {
+    background: #BBD2C5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #45495e, #536976, #BBD2C5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3f435c, #536976, #BBD2C5);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+
+}
+
+.btn.btn-outline:hover {
+    background: #1c92d2;
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
+    background: linear-gradient(to right, #f2fcfe, #5e8194);
+    transition: .3s all;
+}
+
+.launch-msg {
+    font-size: 1rem;
+}
